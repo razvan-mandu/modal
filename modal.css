@@ -1,0 +1,112 @@
+@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+
+body{
+    font-family:'Noto Sans', 'Sans Serif';
+    background:#fafafa;
+}
+.modal{
+    margin:auto;
+    width:800px;
+    height:600px;
+    border:1px solid #efefef;
+    display:flex;
+    flex-direction:row;
+    background:white;
+    box-sizing: border-box;
+}
+
+.modal-left{
+    width:481.25px;
+    display:flex;
+    flex-direction:column;
+}
+
+.modal-text{
+    width:370px;
+    margin: auto;
+    height:470px;
+    text-align:center;
+}
+
+.modal-picture{
+    width:319px;
+    height:598px;
+    display:block;
+    margin-left:auto;
+}
+
+.logo{
+    height:35px;
+}
+
+.unlimited-digital-access{
+    width:337px;
+    font-size:20px;
+    margin:auto;
+    margin-top:30px;
+    letter-spacing: 0.6px;
+}
+
+.price{
+    font-size:48px;
+    font-weight:bold;
+    font-family:'Noto Serif', 'Sans Serif';
+    margin: 0 auto;
+    margin-top:3px;
+
+}
+
+.description{
+    font-size:26px;
+    font-weight:600;
+    margin-top:0px;
+}
+
+.claim-now{
+    width:250px;
+    height:60px;
+    background:#292929 0% 0% no-repeat padding-box;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+    letter-spacing:1.8px;
+    cursor:pointer;
+    display:flex;
+    margin:auto;
+    margin-top:29px;
+    text-decoration: none;
+}
+.claim-now > span{
+    text-align:center;
+    vertical-align:middle;
+    margin:auto;
+}
+
+.maybe-later{
+    box-sizing: border-box;
+    margin-top: 0px;
+    width:250px;
+    height:60px;
+    background:white;
+    border:2px solid #292929;
+    font-weight:bold;
+    font-size:18px;
+    letter-spacing:1.8px;
+    color:#292929;
+    display:flex;
+    margin:auto;
+    cursor:pointer;
+    margin-top:-5px;
+    text-decoration: none;
+}
+.maybe-later > span{
+    text-align:center;
+    vertical-align:middle;
+    margin:auto;
+}
+
+.no-commitments{
+    font-size:18px;
+    font-weight:bold;
+    margin-top:32px;
+}
