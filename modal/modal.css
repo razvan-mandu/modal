@@ -4,6 +4,18 @@ body{
     font-family:'Noto Sans', 'Sans Serif';
     background:#fafafa;
 }
+
+#w_popup{
+    position:fixed;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.6);
+    width:100%;
+    height:100%;
+    z-index:1;
+    display:none;
+}
+
 .w_modal{
     margin:auto;
     width:800px;
@@ -13,6 +25,8 @@ body{
     flex-direction:row;
     background:white;
     box-sizing: border-box;
+    position:relative;
+    z-index:2;
 }
 
 .w_modal-left{
@@ -110,4 +124,17 @@ body{
     font-size:18px;
     font-weight:bold;
     margin-top:32px;
+}
+#w_overlay{
+    position: fixed;
+    display: none; /* Hidden by default */ 
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
 }

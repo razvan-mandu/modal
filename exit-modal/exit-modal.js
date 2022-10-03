@@ -1,5 +1,18 @@
 'use strict'
 
+
+var $ = function(id) {
+    return document.getElementById(id);
+}
+
+var show = function(id) {
+    $(id).style.display ='block';
+}
+var hide = function(id) {
+    $(id).style.display ='none';
+}
+
+
 function decrementTime() {
     let now = new Date().getTime();
     countDownDate = new Date (countDownDate)
@@ -45,6 +58,11 @@ if (!countDownDate){
 }
 
 
+
+
+
 //Update the timer once immediately, and begin the timer a second later
 decrementTime();
 var x = setInterval(decrementTime, 1000);
+
+

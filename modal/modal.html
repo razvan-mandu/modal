@@ -4,27 +4,38 @@
         <script type="text/javascript" src="modal.js"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans:400,500,600,700">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif:400,700">
+        
+
         <meta name=“viewport” content=“width=device-width, initial-scale=1.0“>
     </head>
 
 
     <body>
-        <div class="w_modal">
-            <div class="w_modal-left">
-                <div class="w_modal-text">
-                    <img class="w_logo" src="https://media.mcclatchy.com/email-assets/global/logos/miami-black.png">
-                    <p class="w_unlimited-digital-access">UNLIMITED DIGITAL ACCESS</p>
-                    <p class="w_price">$1 for 1 month<p>
-                    <p class="w_description">Stay connected with the latest local news.</p>
-                    <a class="w_claim-now" href="https://google.com"> <span>CLAIM NOW </span> </a>
-                    <br/>
-                    <a class="w_maybe-later" href="https://google.com"> <span> MAYBE LATER </span> </a>
-                    <p class="w_no-commitments">
-                        No commitments.  Cancel anytime.
-                    </p>
+        <a href="#" onclick="show('w_popup')">Show popup</a>
+
+        <div id="w_popup">
+            <div class="w_modal">
+                <div class="w_modal-left">
+                    <div class="w_modal-text">
+                        <img class="w_logo" src="https://media.mcclatchy.com/email-assets/global/logos/miami-black.png">
+                        <p class="w_unlimited-digital-access">UNLIMITED DIGITAL ACCESS</p>
+                        <p class="w_price">$1 for 1 month<p>
+                        <p class="w_description">Stay connected with the latest local news.</p>
+                        <a class="w_claim-now" href="https://google.com"> <span>CLAIM NOW </span> </a>
+                        <br/>
+                        <a class="w_maybe-later" href="https://google.com"> <span> MAYBE LATER </span> </a>
+                        <p class="w_no-commitments">
+                            No commitments.  Cancel anytime.
+                        </p>
+                    </div>
                 </div>
+                <img class="w_modal-picture" src="https://media.mcclatchy.com/modals/local-images/miami.png">
             </div>
-            <img class="w_modal-picture" src="https://media.mcclatchy.com/modals/local-images/miami.png">
+            
         </div>
+
+        <footer>
+            <script type="text/javascript" src="modal.js"></script>
+        </footer>
     </body>
 </html>
