@@ -2,7 +2,7 @@ body{
     font-family:'Noto Sans', 'Sans Serif';
     background:#fafafa;
 }
-.exit-modal{
+.w_exit-modal{
     border:1px solid #efefef;
     width:600px;
     height:600px;
@@ -13,25 +13,25 @@ body{
     flex-direction:column;
     text-align:center;
 }
-.logo{
+.w_logo{
     height:35px;
     width:210px;
     margin:0 auto;
     margin-top:40px;
 }
-.time-running-out{
+.w_time-running-out{
     width:337px;
     font-size:20px;
     margin:0 auto;
     margin-top:38px;
     letter-spacing: 0.6px;
 }
-.you-are-close{
+.w_you-are-close{
     font-size:18px;
     font-weight:600;
     margin-top:16px;
 }
-.price{
+.w_price{
     font-size:56px;
     font-weight:bold;
     font-family:'Noto Serif', 'Sans Serif';
@@ -39,23 +39,23 @@ body{
     margin-top:-4px;
     letter-spacing: -0.56px;
 }
-.when-you-subscribe{
+.w_when-you-subscribe{
     font-size:18px;
     font-weight:600;
     margin-top:-12px;
 }
 
-#minsTicker{
+#w_minsTicker{
     font-size:50px;
     margin: 0 auto;
     font-weight:500;
 }
-#secsTicker{
+#w_secsTicker{
     font-size:50px;
     margin: 0 auto;
     font-weight:500;
 }
-.timer{
+.w_timer{
     display:flex;
     flex-direction:row;
     margin: 0 auto;
@@ -64,20 +64,20 @@ body{
     justify-content:space-between;
     height:77px;
 }
-.minutes-timer{
+.w_minutes-timer{
     display:flex;
     flex-direction:column;
 }
-.seconds-timer{
+.w_seconds-timer{
     display:flex;
     flex-direction: column;
 }
-#minutesText, #secsText{
+#w_minutesText, #w_secsText{
     font-size:12px;
     font-weight:500;
     margin-top:-6px;
 }
-.claim-now{
+.w_claim-now{
     width:250px;
     height:60px;
     background:#292929 0% 0% no-repeat padding-box;
@@ -91,13 +91,13 @@ body{
     margin-top:32px;
     text-decoration: none;
 }
-.claim-now > span{
+.w_claim-now > span{
     text-align:center;
     vertical-align:middle;
     margin:auto;
 }
 
-.no-thanks{
+.w_no-thanks{
     box-sizing: border-box;
     margin-top: 0px;
     width:250px;
@@ -114,29 +114,29 @@ body{
     margin-top:-40px;
     text-decoration: none;
 }
-.no-thanks > span{
+.w_no-thanks > span{
     text-align:center;
     vertical-align:middle;
     margin:auto;
 }
-.logo-2{
+.w_logo-2{
     margin-top:70px;
 }
-.time-running-out-2{
+.w_time-running-out-2{
     margin-top:37px;
 }
-.you-are-close-2{
+.w_you-are-close-2{
     margin-top:15px;
 }
-.price-2{
+.w_price-2{
     margin-top:-2px;
 }
-.when-you-subscribe-2{
+.w_when-you-subscribe-2{
     margin-top:-9px;
 }
-.claim-now-2{
+.w_claim-now-2{
     margin-top:24px;
 }
-.no-thanks-2{
+.w_no-thanks-2{
     margin-top:-70px;
 }

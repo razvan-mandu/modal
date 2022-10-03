@@ -21,9 +21,9 @@ function decrementTime() {
         minsTicker.innerHTML="0";
     }
     else {
-        let minsTicker = document.getElementById("minsTicker");
-        minsTicker.innerHTML=minutes;        
-        let secsTicker=document.getElementById("secsTicker");
+        let minsTicker = document.getElementById("w_minsTicker");
+        minsTicker.innerHTML=minutes;
+        let secsTicker=document.getElementById("w_secsTicker");
         secsTicker.innerHTML = seconds;
     }
 }

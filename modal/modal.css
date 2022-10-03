@@ -4,7 +4,7 @@ body{
     font-family:'Noto Sans', 'Sans Serif';
     background:#fafafa;
 }
-.modal{
+.w_modal{
     margin:auto;
     width:800px;
     height:600px;
@@ -15,32 +15,32 @@ body{
     box-sizing: border-box;
 }
 
-.modal-left{
+.w_modal-left{
     width:481.25px;
     display:flex;
     flex-direction:column;
 }
 
-.modal-text{
+.w_modal-text{
     width:370px;
     margin: auto;
     height:470px;
     text-align:center;
 }
 
-.modal-picture{
+.w_modal-picture{
     width:319px;
     height:598px;
     display:block;
     margin-left:auto;
 }
 
-.logo{
+.w_logo{
     height:35px;
     width:210px;
 }
 
-.unlimited-digital-access{
+.w_unlimited-digital-access{
     width:337px;
     font-size:20px;
     margin:auto;
@@ -48,7 +48,7 @@ body{
     letter-spacing: 0.6px;
 }
 
-.price{
+.w_price{
     font-size:48px;
     font-weight:bold;
     font-family:'Noto Serif', 'Sans Serif';
@@ -57,13 +57,13 @@ body{
     letter-spacing: -0.48px;
 }
 
-.description{
+.w_description{
     font-size:26px;
     font-weight:600;
     margin-top:0px;
 }
 
-.claim-now{
+.w_claim-now{
     width:250px;
     height:60px;
     background:#292929 0% 0% no-repeat padding-box;
@@ -77,13 +77,13 @@ body{
     margin-top:29px;
     text-decoration: none;
 }
-.claim-now > span{
+.w_claim-now > span{
     text-align:center;
     vertical-align:middle;
     margin:auto;
 }
 
-.maybe-later{
+.w_maybe-later{
     box-sizing: border-box;
     margin-top: 0px;
     width:250px;
@@ -100,13 +100,13 @@ body{
     margin-top:-5px;
     text-decoration: none;
 }
-.maybe-later > span{
+.w_maybe-later > span{
     text-align:center;
     vertical-align:middle;
     margin:auto;
 }
 
-.no-commitments{
+.w_no-commitments{
     font-size:18px;
     font-weight:bold;
     margin-top:32px;
