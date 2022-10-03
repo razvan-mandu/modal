@@ -17,7 +17,10 @@ function decrementTime() {
 
     if (seconds < 0) {
         clearInterval(x);
-        secsTicker.innerHTML="00";
+        let secsTicker=document.getElementById("w_secsTicker");
+        secsTicker.innerHTML = "00";
+
+        let minsTicker = document.getElementById("w_minsTicker");
         minsTicker.innerHTML="0";
     }
     else {
