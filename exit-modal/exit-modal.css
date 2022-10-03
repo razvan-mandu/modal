@@ -1,0 +1,142 @@
+body{
+    font-family:'Noto Sans', 'Sans Serif';
+    background:#fafafa;
+}
+.exit-modal{
+    border:1px solid #efefef;
+    width:600px;
+    height:600px;
+    margin:auto;
+    background:white;
+    box-sizing:border-box;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+}
+.logo{
+    height:35px;
+    width:210px;
+    margin:0 auto;
+    margin-top:40px;
+}
+.time-running-out{
+    width:337px;
+    font-size:20px;
+    margin:0 auto;
+    margin-top:38px;
+    letter-spacing: 0.6px;
+}
+.you-are-close{
+    font-size:18px;
+    font-weight:600;
+    margin-top:16px;
+}
+.price{
+    font-size:56px;
+    font-weight:bold;
+    font-family:'Noto Serif', 'Sans Serif';
+    margin: 0 auto;
+    margin-top:-4px;
+    letter-spacing: -0.56px;
+}
+.when-you-subscribe{
+    font-size:18px;
+    font-weight:600;
+    margin-top:-12px;
+}
+
+#minsTicker{
+    font-size:50px;
+    margin: 0 auto;
+    font-weight:500;
+}
+#secsTicker{
+    font-size:50px;
+    margin: 0 auto;
+    font-weight:500;
+}
+.timer{
+    display:flex;
+    flex-direction:row;
+    margin: 0 auto;
+    margin-top:-20px;
+    width:128px;
+    justify-content:space-between;
+    height:77px;
+}
+.minutes-timer{
+    display:flex;
+    flex-direction:column;
+}
+.seconds-timer{
+    display:flex;
+    flex-direction: column;
+}
+#minutesText, #secsText{
+    font-size:12px;
+    font-weight:500;
+    margin-top:-6px;
+}
+.claim-now{
+    width:250px;
+    height:60px;
+    background:#292929 0% 0% no-repeat padding-box;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+    letter-spacing:1.8px;
+    cursor:pointer;
+    display:flex;
+    margin:auto;
+    margin-top:32px;
+    text-decoration: none;
+}
+.claim-now > span{
+    text-align:center;
+    vertical-align:middle;
+    margin:auto;
+}
+
+.no-thanks{
+    box-sizing: border-box;
+    margin-top: 0px;
+    width:250px;
+    height:60px;
+    background:white;
+    border:2px solid #292929;
+    font-weight:bold;
+    font-size:18px;
+    letter-spacing:1.8px;
+    color:#292929;
+    display:flex;
+    margin:auto;
+    cursor:pointer;
+    margin-top:-40px;
+    text-decoration: none;
+}
+.no-thanks > span{
+    text-align:center;
+    vertical-align:middle;
+    margin:auto;
+}
+.logo-2{
+    margin-top:70px;
+}
+.time-running-out-2{
+    margin-top:36px;
+}
+.you-are-close-2{
+    margin-top:15px;
+}
+.price-2{
+    margin-top:-2px;
+}
+.when-you-subscribe-2{
+    margin-top:-9px;
+}
+.claim-now-2{
+    margin-top:24px;
+}
+.no-thanks-2{
+    margin-top:-72px;
+}

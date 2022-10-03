@@ -37,6 +37,7 @@ body{
 
 .logo{
     height:35px;
+    width:210px;
 }
 
 .unlimited-digital-access{
@@ -53,7 +54,7 @@ body{
     font-family:'Noto Serif', 'Sans Serif';
     margin: 0 auto;
     margin-top:3px;
-
+    letter-spacing: -0.48px;
 }
 
 .description{
