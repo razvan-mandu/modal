@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+
 body{
     font-family:'Noto Sans', 'Sans Serif';
     background:#fafafa;
@@ -36,10 +38,11 @@ body{
     margin:0 auto;
     margin-top:38px;
     letter-spacing: 0.6px;
+    font-weight:bold;
+    font-family:'Noto Sans', 'Sans Serif';
 }
 .w_you-are-close{
     font-size:18px;
-    font-weight:600;
     margin-top:16px;
 }
 .w_price{
@@ -52,7 +55,6 @@ body{
 }
 .w_when-you-subscribe{
     font-size:18px;
-    font-weight:600;
     margin-top:-12px;
 }
 
@@ -150,4 +152,10 @@ body{
 }
 .w_no-thanks-2{
     margin-top:-70px;
+}
+.colon{
+    font-size:50px;
+    margin: 0 auto;
+    margin-right:12px;
+    font-weight:500;
 }
